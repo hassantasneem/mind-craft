@@ -1,4 +1,4 @@
-# MINDCRAFT
+# MINDCRAFT - Quiz Game
 This repository contains the source code for mindcraft, a quiz game developed as a part of our end semester project at FAST-NUCES
 
 ## Team
