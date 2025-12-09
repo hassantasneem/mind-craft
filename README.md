@@ -17,14 +17,16 @@ The game allows users to test their general knowledge across multiple categories
 This phase established the foundational and essential features: 
 
 
--Main Menu: Implemented a functional menu with options to Start Quiz, View High Scores
+- Main Menu: 
+Implemented a functional menu with options to Start Quiz, View High Scores
 
--Question Bank and File Handling:
+- Question Bank and File Handling:
 Configured the system to load questions from separate category files (geography.txt, history.txt, etc.). 
 
 File structure includes the questions statement, four multiple-choice options, and the correct answer. 
 
--Basic Gameplay: Displays 10 randomly selected questions per session, provides immediate feedback (Correct/Incorrect), and tracks the player's score.
+- Basic Gameplay: 
+Displays 10 randomly selected questions per session, provides immediate feedback (Correct/Incorrect), and tracks the player's score.
 
 ## Phase 2: Modularization and Advanced Gameplay Features
 
