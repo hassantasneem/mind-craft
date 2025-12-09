@@ -1,0 +1,30 @@
+What does SQL stand for?
+Simple Query Language/Structured Query Language/System Quality Level/Sequential Query Logic
+2
+Which algorithm is used for public-key cryptography?
+AES/RSA/SHA-256/DES
+2
+In Big O notation, what is the complexity of binary search?
+O(n)/O(log n)/O(n²)/O(1)
+2
+What is the main purpose of a mutex?
+Memory storage/Mutual exclusion/Network security/Thread termination
+2
+Which of the following is NOT a functional programming language?
+Haskell/Erlang/Scala/PHP
+4
+Which protocol secures data over HTTPS?
+TLS/FTP/SSH/IP
+1
+Which of these is a NoSQL database?
+MySQL/PostgreSQL/MongoDB/SQLite
+3
+What does the OS kernel mainly manage?
+Games/Documents/Hardware resources/Screensavers
+3
+Which of these is a lossless compression format?
+MP3/PNG/MPEG/JPEG
+2
+Which scheduling algorithm can cause starvation?
+FIFO/SJF/Round Robin/Priority
+4
