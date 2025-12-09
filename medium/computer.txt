@@ -1,0 +1,30 @@
+Which protocol is used for secure web browsing?
+HTTP/FTP/HTTPS/SMTP
+3
+Which data structure uses FIFO?
+Stack/Queue/Tree/Graph
+2
+Which sorting algorithm has the best average time complexity here?
+Bubble Sort/Insertion Sort/Quick Sort/Selection Sort
+3
+Which programming language was developed by Guido van Rossum?
+Java/Python/Ruby/C#
+2
+Which part of the CPU performs arithmetic operations?
+CU/ALU/Register/Bus
+2
+Which of these is NOT a database?
+MySQL/Oracle/Firebase/Linux
+4
+What does API stand for?
+Application Program Item/Application Programming Interface/Applied Program Interaction/Advanced Processing Instruction
+2
+Which type of malware demands payment?
+Virus/Trojan/Ransomware/Worm
+3
+Which model is used in machine learning to classify data?
+Binary Tree/Neural Network/Linked List/Stack
+2
+Which file extension is used for Java bytecode?
+.java/.class/.jar/.jav
+2

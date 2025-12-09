@@ -1,0 +1,30 @@
+What does CPU stand for?
+Central Processing Unit/Computer Processing Utility/Central Power Unit/Control Program Unit
+1
+Which device is used to store data permanently?
+RAM/ROM/Hard Drive/Cache
+3
+Which of these is an operating system?
+Python/Windows/HTML/Chrome
+2
+What does 'www' stand for in a website address?
+World Wide Web/Wireless Web Window/Wide World Wait/Web World Way
+1
+Which key is used to delete characters to the left?
+Delete/Backspace/Shift/Tab
+2
+What is used to connect a computer to the internet?
+Router/Monitor/Keyboard/Speaker
+1
+Which one is an input device?
+Mouse/Printer/Speaker/Projector
+1
+Which file format is used for images?
+.doc/.jpg/.exe/.mp3
+2
+Which component displays output?
+CPU/Monitor/Keyboard/Scanner
+2
+What does USB stand for?
+Universal System Bus/Universal Serial Bus/United Signal Base/Unit System Byte
+2
