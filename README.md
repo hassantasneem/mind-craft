@@ -61,5 +61,9 @@ Developed a logging feature to save complete session data like player name, date
 - **Review and Replay:**
 Provides options for players to review incorrectly answered questions and replay the quiz.
 
+## Development Constraints 
+- No OOP constructs allowed (structs, classes, enums)
+- No additional libraries allowed apart from string, ctime, cstdlib, iomanip. With the only exception being chrono and threads for time handling.
+
 
 This project serves as a showcase of our ability to deliver a feature filled game using fundamental C++.
