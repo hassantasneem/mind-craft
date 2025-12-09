@@ -17,42 +17,49 @@ The game allows users to test their general knowledge across multiple categories
 This phase established the foundational and essential features: 
 
 
-- Main Menu: 
+- **Main Menu:**
 Implemented a functional menu with options to Start Quiz, View High Scores
 
-- Question Bank and File Handling:
+- **Question Bank and File Handling:**
 Configured the system to load questions from separate category files (geography.txt, history.txt, etc.). 
 
 File structure includes the questions statement, four multiple-choice options, and the correct answer. 
 
-- Basic Gameplay: 
+- **Basic Gameplay:** 
 Displays 10 randomly selected questions per session, provides immediate feedback (Correct/Incorrect), and tracks the player's score.
 
 ## Phase 2: Modularization and Advanced Gameplay Features
 
 This phase focused on expanding functionality and features.
 
--Modular Programming: Implemented dedicated functions for Loading questions, Displaying questions, Calculating scores, and Updating high score etc, ensuring reusable and well-organized code. 
+- **Varying Difficulty:** 
+Implemented three difficulty levels (Easy, Medium, Hard) with dynamic adjustment of the question pool based on the user's choice. 
 
--Varying Difficulty: Implemented three difficulty levels (Easy, Medium, Hard) with dynamic adjustment of the question pool based on the user's choice. 
+- **Timed Gameplay:** 
+Introduced a per-question timer (e.g 10 seconds) to add a time-based challenge, utilizing threads.
 
--Timed Gameplay: Introduced a per-question timer (e.g 10 seconds) to add a time-based challenge, utilizing threads.
+- **Lifelines System:**
+Incorporated four KBC-inspired lifelines, each usable once per quiz: 50/50, Skip Question, Replace Question, and Extra Time. 
 
--Lifelines System: Incorporated four KBC-inspired lifelines, each usable once per quiz: 50/50, Skip Question, Replace Question, and Extra Time. 
+- **Streak Bonus System:**
+Rewards players with bonus points (+5 or +15) for consecutive correct answers to increase engagement and reward skill. 
 
--Streak Bonus System: Rewards players with bonus points (+5 or +15) for consecutive correct answers to increase engagement and reward skill. 
-
--Negative Marking: Implemented realistic challenge by deducting points for wrong answers, with the penalty adjusted by the difficulty level (e.g -5 for Hard level).
+- **Negative Marking:**
+Implemented realistic challenge by deducting points for wrong answers, with the penalty adjusted by the difficulty level (e.g -5 for Hard level).
 
 
 ## Phase 3: File Handling and Persistent Features
+
 This phase focused on data storage and replay functionality: 
 
--High Scores: Implemented persistent storage of the top 5 high scores to high_scores.txt, including the player's name and session date for the leaderboard display. 
+- **High Scores:**
+Implemented persistent storage of the top 5 high scores to high_scores.txt, including the player's name and session date for the leaderboard display. 
 
--Quiz Logging: Developed a logging feature to save complete session data—including player name, date, and question performance—to quiz_logs.txt. 
+- **Quiz Logging:**
+Developed a logging feature to save complete session data—including player name, date, and question performance—to quiz_logs.txt. 
 
--Review and Replay: Provides options for players to review incorrectly answered questions and replay the quiz.
+- **Review and Replay:**
+Provides options for players to review incorrectly answered questions and replay the quiz.
 
 
 This project serves as a showcase of our ability to deliver a complex, feature-complete game using fundamental C++.
