@@ -56,10 +56,10 @@ This phase focused on data storage and replay functionality:
 Implemented persistent storage of the top 5 high scores to high_scores.txt, including the player's name and session date for the leaderboard display. 
 
 - **Quiz Logging:**
-Developed a logging feature to save complete session data—including player name, date, and question performance—to quiz_logs.txt. 
+Developed a logging feature to save complete session data like player name, date, and total score to quiz_logs.txt. 
 
 - **Review and Replay:**
 Provides options for players to review incorrectly answered questions and replay the quiz.
 
 
-This project serves as a showcase of our ability to deliver a complex, feature-complete game using fundamental C++.
+This project serves as a showcase of our ability to deliver a feature filled game using fundamental C++.
