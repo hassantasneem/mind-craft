@@ -6,9 +6,6 @@
 #include <stdlib.h>
 #include <thread>
 #include <ctime>
-#include <future>
-#include <optional>
-#include <unistd.h>
 
 using namespace std;
 
@@ -43,15 +40,36 @@ int main()
 }
 
 // return date in dd-mm-yyyy format
-string getCurrentDate()
-{
-    long now = time(0);
-    int day = localtime(&now)->tm_mday;
-    int month = 1 + localtime(&now)->tm_mon;
-    int year = 1900 + localtime(&now)->tm_year;
-    string dayStr = (day < 10) ? "0" + to_string(day) : to_string(day);
-    string monthStr = (month < 10) ? "0" + to_string(month) : to_string(month);
-    return dayStr + "-" + monthStr + "-" + to_string(year);
+string getCurrentDate(){
+    time_t ct = time(0);
+    string currentTime = ctime(&ct);
+
+    // currentTime => "Mon Dec  8 16:41:19 2025"
+    
+    string monthStr = currentTime.substr(4, 3);
+    int month = 1;
+    if (monthStr == "Jan") month = 1;
+    else if (monthStr == "Feb") month = 2;
+    else if (monthStr == "Mar") month = 3;
+    else if (monthStr == "Apr") month = 4;
+    else if (monthStr == "May") month = 5;
+    else if (monthStr == "Jun") month = 6;
+    else if (monthStr == "Jul") month = 7;
+    else if (monthStr == "Aug") month = 8;
+    else if (monthStr == "Sep") month = 9;
+    else if (monthStr == "Oct") month = 10;
+    else if (monthStr == "Nov") month = 11;
+    else if (monthStr == "Dec") month = 12;
+    
+    string day = currentTime.substr(8, 2);
+    //if day is in single digit, add an additional zero
+    if (day[0] == ' ') day = "0" + day.substr(1, 1);
+    
+    string year = currentTime.substr(20, 4);
+    
+    string monthNum = (month < 10) ? "0" + to_string(month) : to_string(month);
+    
+    return day + "-" + monthNum + "-" + year;
 }
 
 // makes the text in console coloured using ansi codes
@@ -1049,3 +1067,4 @@ void endScreen(int correct, int incorrect, int score, string name)
         displayMenu();
     }
 }
+
